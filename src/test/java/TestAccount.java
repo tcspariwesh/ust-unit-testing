@@ -1,4 +1,4 @@
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -10,10 +10,11 @@ public class TestAccount {
   @Rule
   public ExpectedException thrown = ExpectedException.none();
 
-  Account account;
-  @Before
-  void init() {
+  static Account account;
+  @BeforeClass //use it for one time initialization per test class
+  public static void init() {
     account = new Account();
+    
   }
 
   @Test
