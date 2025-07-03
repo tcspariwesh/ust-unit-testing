@@ -9,7 +9,7 @@ import com.ust.Account;
 public class TestAccount {
 
   @Rule
-  public ExpectedException thrown = ExpectedException.none();
+  public ExpectedException thrown = ExpectedException.none();//define a monitor
 
    Account account;
 
@@ -26,7 +26,7 @@ public class TestAccount {
 
   @Test
   public void testReturnTrue() {
-    boolean result = account.withdraw(200);
+    boolean result = account.withdraw(200); //MUT-method under test
     org.junit.Assert.assertEquals(true, result);
   }
 
