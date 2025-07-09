@@ -1,0 +1,17 @@
+[{
+    "name":"Pariwesh",
+    "age":43,
+    "address": {
+        "house":1000,
+        "city":"Bangalore"   
+    }
+},
+
+{
+    "name":"Pariwesh",
+    "address": {
+        "house":1000,
+        "city":"Bangalore"   
+    },
+    "age":43
+}]

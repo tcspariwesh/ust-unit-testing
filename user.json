@@ -1,0 +1,8 @@
+{
+    "name":"Pariwesh",
+    "age":43,
+    "address": {
+        "house":1000,
+        "city":"Bangalore"   
+    }
+}
